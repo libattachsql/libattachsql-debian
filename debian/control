@@ -1,0 +1,23 @@
+Source: libattachsql
+Priority: optional
+Maintainer: Andrew Hutchings <andrew@linuxjeid.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://libattachsql.org/
+Vcs-Git: git://github.com/libattachsql/libattachsql.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libattachsql.git;a=summary
+
+Package: libattachsql-dev
+Section: libdevel
+Architecture: any
+Depends: libattachsql (= ${binary:Version})
+Description: Development package for libAttachSQL
+ libAttachSQL is a lightweight C connector for MySQL servers
+
+Package: libattachsql
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libuv-dev (==0.10)
+Description: A lightweight C connector for MySQL servers
+ libAttachSQL is a lightweight C connector for MySQL servers
