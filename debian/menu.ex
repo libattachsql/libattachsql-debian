@@ -1,2 +1,0 @@
-?package(libattachsql):needs="X11|text|vc|wm" section="Applications/see-menu-manual"\
-  title="libattachsql" command="/usr/bin/libattachsql"
