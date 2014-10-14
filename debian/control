@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Andrew Hutchings <andrew@linuxjeid.co.uk>
 Build-Depends: debhelper (>= 8.0.0),
                dh-autoreconf,
-               libuv-dev (= 0.10), libssl-dev, zlib1g-dev
+               libuv-dev (<< 0.11), libssl-dev, zlib1g-dev
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://libattachsql.org/
@@ -13,7 +13,7 @@ Package: libattachsql1-dev
 Section: libdevel
 Architecture: any
 Depends: libattachsql1 (= ${binary:Version}),
-         libuv-dev (= 0.10), libssl-dev, zlib1g-dev
+         libuv-dev (<< 0.11), libssl-dev, zlib1g-dev
 Description: Development package for libAttachSQL
  libAttachSQL is a lightweight C connector for MySQL servers
 
@@ -21,6 +21,6 @@ Package: libattachsql1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-         libuv (= 0.10), libssl, zlib1g
+         libuv0.10 (<< 0.11), libssl, zlib1g
 Description: A lightweight C connector for MySQL servers
  libAttachSQL is a lightweight C connector for MySQL servers
