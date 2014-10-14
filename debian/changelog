@@ -1,4 +1,4 @@
-libattachsql (0.9.0-2) precise; urgency=low
+libattachsql (0.9.0-2) trusty; urgency=low
 
   * Fix ssl dep
 
