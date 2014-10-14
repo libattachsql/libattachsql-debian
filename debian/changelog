@@ -1,3 +1,9 @@
+libattachsql (0.9.0-2) precise; urgency=low
+
+  * Fix ssl dep
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 14 Oct 2014 14:39:07 +0100
+
 libattachsql (0.9.0-1) precise; urgency=low
 
   * Initial release
