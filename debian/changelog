@@ -1,5 +1,5 @@
-libattachsql (0.9.0-1) unstable; urgency=low
+libattachsql (0.9.0-1) precise; urgency=low
 
   * Initial release
 
- -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Fri, 13 Oct 2014 14:40:12 +0100
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 14 Oct 2014 14:00:19 +0100
