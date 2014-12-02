@@ -1,3 +1,9 @@
+libattachsql (1.0.2-1~trusty) precise; urgency=low
+
+  * Bug fix release
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 02 Dec 2014 14:03:39 +0000
+
 libattachsql (1.0.1-1~trusty) trusty; urgency=low
 
   * Bug fix release
