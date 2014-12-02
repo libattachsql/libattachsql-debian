@@ -1,3 +1,9 @@
+libattachsql (1.0.2-2~precise) precise; urgency=low
+
+  * Fix Ubuntu packaging mixup
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 02 Dec 2014 14:35:57 +0000
+
 libattachsql (1.0.2-1~precise) precise; urgency=low
 
   * Bug fix release
