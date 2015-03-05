@@ -9,15 +9,15 @@ Section: libs
 Homepage: http://libattachsql.org/
 Vcs-Git: git://github.com/libattachsql/libattachsql.git
 
-Package: libattachsql1-dev
+Package: libattachsql2-dev
 Section: libdevel
 Architecture: any
-Depends: libattachsql1 (= ${binary:Version}),
+Depends: libattachsql2 (= ${binary:Version}),
          libuv-dev (<< 0.11), libssl-dev, zlib1g-dev
 Description: Development package for libAttachSQL
  libAttachSQL is a lightweight C connector for MySQL servers
 
-Package: libattachsql1
+Package: libattachsql2
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
