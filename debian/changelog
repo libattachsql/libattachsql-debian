@@ -1,3 +1,9 @@
+libattachsql (2.0.0pre2-1~precise) precise; urgency=low
+
+  * Group functions/types have been renamed to pool
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Fri, 05 Mar 2015 14:08:16 +0000
+
 libattachsql (2.0.0pre1-2~precise) precise; urgency=low
 
   * Fix versioning in build scripts
